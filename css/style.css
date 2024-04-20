@@ -1,7 +1,21 @@
+/*---------- General properties Start----------*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/*---------- General properties Finish----------*/
+
 /*---------- Header Start----------*/
 .header {
   background-color: #0a0a0a;
   padding: 33px 0 32px;
+  color: #717171;
 }
 
 .container {
@@ -31,5 +45,7 @@
 }
 
 .menu-link {
+  font-size: 24px;
+  line-height: 29px;
 }
 /*---------- Navigation Bar Finish----------*/
