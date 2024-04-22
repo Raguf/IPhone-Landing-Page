@@ -1,4 +1,12 @@
 /*---------- General properties Start----------*/
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -15,6 +23,8 @@ ul {
 .header {
   background-color: #0a0a0a;
   padding: 33px 0 32px;
+  font-size: 24px;
+  line-height: 29px;
   color: #717171;
 }
 
@@ -44,8 +54,8 @@ ul {
   padding-right: 0;
 }
 
-.menu-link {
-  font-size: 24px;
-  line-height: 29px;
+.menu-link,
+.phone {
 }
+
 /*---------- Navigation Bar Finish----------*/
