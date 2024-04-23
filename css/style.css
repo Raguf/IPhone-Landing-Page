@@ -1,4 +1,4 @@
-/*---------- General properties Start----------*/
+/*---------- General Elements Start----------*/
 
 body {
   font-family: "Inter", sans-serif;
@@ -17,7 +17,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-/*---------- General properties Finish----------*/
+/*---------- General Elements Finish----------*/
 
 /*---------- Header Start----------*/
 .header {
@@ -43,6 +43,14 @@ ul {
 
 .menu {
   display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.phone {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: right;
 }
 
 .menu-item {
@@ -86,5 +94,39 @@ ul {
   font-weight: 700;
   line-height: 29px;
   color: #fff;
+}
+
+.news {
+  padding: 90px 0 150px;
+}
+
+.news-title {
+  margin: 0 0 50px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #717171;
+  text-align: center;
+  line-height: 39px;
+}
+
+.news-info {
+  display: flex;
+  align-items: center;
+}
+
+.news-text p {
+  max-width: 560px;
+  margin: 0 0 30px;
+}
+
+.news-text b {
+  display: block;
+  max-width: 560px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.news-img {
+  margin-left: 190px;
 }
 /*---------- Main Finish----------*/
