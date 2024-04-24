@@ -1,4 +1,4 @@
-/*---------- General Elements Start----------*/
+/*----------General Elements Start----------*/
 
 body {
   font-family: "Inter", sans-serif;
@@ -17,9 +17,15 @@ ul {
   padding: 0;
   list-style: none;
 }
-/*---------- General Elements Finish----------*/
 
-/*---------- Header Start----------*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/*----------General Elements Finish----------*/
+
+/*----------Header Start----------*/
 .header {
   background-color: #0a0a0a;
   padding: 33px 0 32px;
@@ -27,14 +33,7 @@ ul {
   line-height: 29px;
   color: #717171;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-/*---------- Navigation Bar Start----------*/
+/*----------Navigation Bar Start----------*/
 .nav {
   display: flex;
   justify-content: space-between;
@@ -60,12 +59,12 @@ ul {
 .menu-item:last-child {
   padding-right: 0;
 }
-/*---------- Navigation Bar Finish----------*/
+/*----------Navigation Bar Finish----------*/
 
-/*---------- Header Finish----------*/
+/*----------Header Finish----------*/
 
-/*---------- Main Start----------*/
-
+/*----------Main Start----------*/
+/*----------Headline Start----------*/
 .headline {
   background-color: #f5f5f7;
   text-align: center;
@@ -95,12 +94,14 @@ ul {
   line-height: 29px;
   color: #fff;
 }
-
+/*----------Headline Finish----------*/
+/*----------News Start----------*/
 .news {
   padding: 90px 0 150px;
 }
 
-.news-title {
+.news-title,
+.color-title {
   margin: 0 0 50px;
   font-size: 32px;
   font-weight: 700;
@@ -129,4 +130,18 @@ ul {
 .news-img {
   margin-left: 190px;
 }
-/*---------- Main Finish----------*/
+/*----------News Finish----------*/
+.color {
+  padding-bottom: 150px;
+}
+
+.color-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.color-item h3 {
+  font-size: 20px;
+}
+/*----------Main Finish----------*/
